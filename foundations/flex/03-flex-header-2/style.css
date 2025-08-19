@@ -12,6 +12,7 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
 }
 
 .profile-image {
@@ -44,5 +45,18 @@ a {
 }
 
 ul {
+  /* this removes the bullet points */
   list-style-type: none;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+}
+
+.right-nav-bar {
+  display: flex;
+  gap: 16px;
+  margin-left: auto;
+  padding: 8px;
 }
